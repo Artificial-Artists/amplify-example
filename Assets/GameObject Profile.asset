@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: GameObject Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 2194271306571069233}
+--- !u!114 &2194271306571069233
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36294f213a8ae45d6ab6623e2f6df49e, type: 3}
+  m_Name: AmplifyOcclusionPostProcessing
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  ApplyMethod:
+    overrideState: 1
+    value: 0
+  SampleCount:
+    overrideState: 1
+    value: 3
+  PerPixelNormals:
+    overrideState: 0
+    value: 0
+  Intensity:
+    overrideState: 1
+    value: 1
+  Tint:
+    overrideState: 0
+    value: {r: 0, g: 0, b: 0, a: 1}
+  Radius:
+    overrideState: 1
+    value: 0.1
+  PowerExponent:
+    overrideState: 1
+    value: 1
+  Bias:
+    overrideState: 1
+    value: 0.1
+  Thickness:
+    overrideState: 0
+    value: 1
+  Downsample:
+    overrideState: 0
+    value: 1
+  CacheAware:
+    overrideState: 0
+    value: 1
+  FadeEnabled:
+    overrideState: 1
+    value: 1
+  FadeStart:
+    overrideState: 1
+    value: 0
+  FadeLength:
+    overrideState: 1
+    value: 18
+  FadeToIntensity:
+    overrideState: 1
+    value: 0
+  FadeToTint:
+    overrideState: 0
+    value: {r: 0, g: 0, b: 0, a: 1}
+  FadeToRadius:
+    overrideState: 0
+    value: 2
+  FadeToPowerExponent:
+    overrideState: 0
+    value: 1
+  FadeToThickness:
+    overrideState: 0
+    value: 1
+  BlurEnabled:
+    overrideState: 1
+    value: 1
+  BlurRadius:
+    overrideState: 1
+    value: 2
+  BlurPasses:
+    overrideState: 1
+    value: 4
+  BlurSharpness:
+    overrideState: 0
+    value: 15
+  FilterEnabled:
+    overrideState: 1
+    value: 0
+  FilterDownsample:
+    overrideState: 0
+    value: 1
+  FilterBlending:
+    overrideState: 0
+    value: 0.8
+  FilterResponse:
+    overrideState: 0
+    value: 0.5
